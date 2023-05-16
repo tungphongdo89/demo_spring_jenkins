@@ -12,7 +12,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 @ExtendWith(SpringExtension.class)
 class DemoSpringJenkinsApplicationTests {
 
-	private static Logger logger = LoggerFactory.getLogger(DemoSpringJenkinsApplication.class);
+//	private static Logger logger = LoggerFactory.getLogger(DemoSpringJenkinsApplication.class);
 
 	@Test
 	void contextLoads() {
