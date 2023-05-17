@@ -15,7 +15,7 @@ class DemoSpringJenkinsApplicationTests {
 	private static Logger logger = LoggerFactory.getLogger(DemoSpringJenkinsApplication.class);
 
 	@Test
-	contextLoads() {
+	void contextLoads() {
 		logger.info("Application start executing .....");
 		logger.info("Application start executing the second time.....");
 		logger.info("Application start executing for testing build pipeline.....");
